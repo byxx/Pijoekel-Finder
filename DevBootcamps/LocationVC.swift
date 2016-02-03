@@ -101,9 +101,17 @@ class LocationVC: UIViewController, UITableViewDelegate, UITableViewDataSource, 
         
         if annotation.isKindOfClass(BootcampAnnotation) {
             
-            let annoView = MKPinAnnotationView(annotation: annotation, reuseIdentifier: "Default")
-            annoView.pinTintColor = UIColor.blackColor()
-            annoView.animatesDrop = true
+            
+            //MKAnnotationView erlaubt eigenes Image im Gegensatz zu MK Pin AnnotationView
+            let annoView = MKAnnotationView(annotation: annotation, reuseIdentifier: "Default")
+            
+            let logo = UIImage(named: "Pijoekel_Logo")
+
+            annoView.image = logo
+            
+            //Original
+            //annoView.pinTintColor = UIColor.blackColor()
+            //annoView.animatesDrop = true
             return annoView
             
         } else if annotation.isKindOfClass(MKUserLocation) {
