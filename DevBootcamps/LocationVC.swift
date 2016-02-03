@@ -26,7 +26,16 @@ class LocationVC: UIViewController, UITableViewDelegate, UITableViewDataSource, 
     
     let adresses = [
     "Marienburger Str. 7, 10405 Berlin",
-    "Prenzlauer Allee 42, 10405 Berlin"
+    "Prenzlauer Allee 42, 10405 Berlin",
+        "Dr. Kochan’s Schnapskultur, Immanuelkirchstr. 4, 10405 Berlin",
+            "Whatever, Torstraße 155, 10115 Berlin",
+                "das goodshaus, Kastanienallee 101, 10435 Berlin",
+                     "Berlvin, Knaackstraße 70, 10435 Berlin",
+                        "Koch Spirituosen Berlin, Karl-Liebknecht-Str. 7, 10178 Berlin",
+                            "Arminiusmarkthalle, Arminiusstraße 2-4, 10551 Berlin",
+                                "PASS Spirituosen-Großhandel, Granatenstraße 25/26, 13409 Berlin",
+                                    "Les Vignes, Lychener Str. 4, 10437 Berlin",
+                                        "Weinhandlung Weinberg, Winsstraße 64, 10405 Berlin"
     
     
     ]
